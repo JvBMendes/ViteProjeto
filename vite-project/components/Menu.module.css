@@ -1,0 +1,13 @@
+.wrapMenu{
+    background: var(--bg-secondary);
+    width: 90px;
+    height: 100%;
+    position: fixed;
+    box-shadow: var(--color-shadow);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
