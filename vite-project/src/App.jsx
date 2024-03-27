@@ -7,7 +7,7 @@ function App() {
         <div>
             <Menu/>
             <div className={style.divInicio}>
-                <h1> Bem vindo</h1>
+                <h1>Bem vindo</h1>
             </div>
         </div>
       )
