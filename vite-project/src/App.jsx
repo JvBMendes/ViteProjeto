@@ -1,12 +1,14 @@
 
-import Menu from '../components/Menu'
-import './App.module.css'
+import Menu from './components/Menu'
+import style from './App.module.css'
 
 function App() {
     return(   
         <div>
             <Menu/>
-            <h1></h1>
+            <div className={style.divInicio}>
+                <h1> Bem vindo</h1>
+            </div>
         </div>
       )
 }
