@@ -43,13 +43,16 @@
 .labelsdiv{
     width: 100%;
 }
+.labels{
+    text-decoration-color: aliceblue;
+}
 
 .inputS1, .txtArea{
     margin-bottom: 2vh;
     border: none;
     border-radius: 999px;
     padding: 7px 10px;
-    background-color: var(--bg-secondary);
+    background-color: var(--text-title);
     width: 100%;
 }
 .inputS1{

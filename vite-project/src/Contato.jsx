@@ -12,7 +12,7 @@ import { MapContainer, TileLayer, Marker, Popup} from 'react-leaflet'
 
 export const Contato = () => {
 
-    const geoData = ({lat: -25.3718243, lng: -49.2161051})
+    const geoData = ({lat:-25.4188456, lng: -49.3402957})
 
     const defaultPhoneNumber = '5541998539758'
 
@@ -46,7 +46,7 @@ export const Contato = () => {
             <div className={style.wrapTwoDivs}>
             <div className={style.wrapMap}>
                     <h2>Map</h2>
-                    <MapContainer center={[geoData.lat, geoData.lng]} zoom={14} scrollWheelZoom={false} style={{width: "100%", height: "100%"}}>
+                    <MapContainer center={[geoData.lat, geoData.lng]} zoom={13} scrollWheelZoom={false} style={{width: "100%", height: "100%"}}>
                         <TileLayer
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -54,7 +54,7 @@ export const Contato = () => {
                     {geoData.lat && geoData.lng &&
                         <Marker position={[geoData.lat, geoData.lng]}>
                         <Popup>
-                        <a target='_blank' href={`https://www.google.com.br/maps/place/Sistema+Fiep+-+Unidade+Centro/@${geoData.lat},${geoData.lng},17z/data=!3m1!4b1!4m6!3m5!1s0x94dce41197a84179:0x142fc7abe5169a05!8m2!3d-25.4249717!4d-49.272306!16s%2Fg%2F1ptznr269?entry=ttu`}>Google maps view</a>
+                        <a target='_blank' href={`https://www.google.com.br/maps/place/Rua+José+Tomasi,+1222+-+Santa+Felicidade,+Curitiba+-+PR,+82015-630/@-25.4184677,-49.3400597,17z/data=!4m6!3m5!1s0x94dce1912bff8115:0x4f0433ca18b42d16!8m2!3d-25.4188505!4d-49.3377154!16s%2Fg%2F11flg31f74?entry=ttu`}>Google maps view</a>
                         </Popup>
                         </Marker>}
                     </MapContainer>

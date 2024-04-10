@@ -7,8 +7,11 @@ import {
 
 import App from './App.jsx'
 import { Contato } from './Contato.jsx';
+import { Calculadora } from './Calculadora.jsx';
+
 
 import './index.css'
+import { Tecnologias } from './Tecnologias.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +21,13 @@ const router = createBrowserRouter([
   {
     path: "/Contato",
     element:  <Contato />,
+  },
+  {
+    path: "/Calculadora",
+    element:  <Calculadora />,
+  },{
+    path: "/Tecnologias",
+    element:  <Tecnologias />,
   },
 ]);
 
