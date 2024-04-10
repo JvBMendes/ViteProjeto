@@ -7,7 +7,7 @@ export default function Menu() {
                 <a href={'/'}>Início</a>
             </p>
             <p>
-                <a href={'/contato'}>Contato</a>
+                <a href={'/Contato'}>Contato</a>
             </p>
         </div>
     )

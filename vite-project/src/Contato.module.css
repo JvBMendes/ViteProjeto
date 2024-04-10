@@ -30,10 +30,6 @@
     border: 2px solid var(--bg-third);
     box-shadow: var(--color-shadow);
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 .wrapLabelInput{
     width: 100%;
@@ -47,30 +43,27 @@
 .labelsdiv{
     width: 100%;
 }
-.labels{
-color: aliceblue;
-}
 
-.InputS1, .textareaS1{
+.inputS1, .txtArea{
     margin-bottom: 2vh;
     border: none;
-    border-radius: 10px;
-    width: 100%;
-    padding: 3px 10px;
+    border-radius: 999px;
+    padding: 7px 10px;
     background-color: var(--bg-secondary);
-    color: aliceblue;
-
+    width: 100%;
+}
+.inputS1{
+    width: 94%;
 }
 
-textarea{
-    max-height: 100px;
-    height: 100px;
+.txtArea{
+   border-radius: 10px;
+   max-height: 100px;
+   height: 100px;
    min-height: 100px;
    width: 200px;
    min-width:200px;
    max-width: 200px;
-    text-align: center;
-
 }
 
 .btnTec{
@@ -86,11 +79,9 @@ textarea{
 
 .btnTec:hover{
     border: 1px solid var(--text-p);
-    color: palevioletred;
+    color: var(--text-p);
     box-shadow: var(--color-shadow);
-    transition: all 100ms ease-in;
-
+    transition: all 200ms ease-in;
 }
-
 
 
