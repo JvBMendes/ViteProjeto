@@ -30,9 +30,9 @@ export const Tecnologias = () => {
                    {show === 'react' && <Card title='REACT JS' imgSrc={reactImg} desc='Sou o REACT'/>}
                    {show === 'all' && 
                    <>
-                   <Card title='HTML' imgSrc={htmlImg} desc='Sou o HTML'/> 
-                   <Card title='CSS' imgSrc={cssImg} desc='Sou o CSS'/>
-                   <Card title='JAVASCRIPT' imgSrc={javascriptImg} desc='Sou o JAVASCRIPT'/>
+                   <Card title='HTML' imgSrc={htmlImg} desc='HTML é a linguagem de marcação que define a estrutura e o conteúdo de páginas web.'/> 
+                   <Card title='CSS' imgSrc={cssImg} desc='CSS é uma linguagem de estilo que define a apresentação de páginas web, controlando cores, layout e tipografia. '/>
+                   <Card title='JAVASCRIPT' imgSrc={javascriptImg} desc='JavaScript é uma linguagem de programação versátil, usada para adicionar interatividade e dinamismo a páginas web e aplicações web. '/>
                    <Card title='REACT JS' imgSrc={reactImg} desc='Sou o REACT'/>
                    </>}
                 </div>
